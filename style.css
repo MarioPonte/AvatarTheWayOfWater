@@ -1,0 +1,90 @@
+@font-face {
+    font-family: avatar;
+    src: url(font/torukscregular-z8ma1.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0c3f72;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0399eb;
+    border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: #118fde;
+    font-family: avatar;
+}
+
+.nav-link {
+    color: #00def7 !important;
+    font-size: 20px !important;
+}
+
+.navLogo {
+    width: 200px;
+}
+
+.homeSection {
+    position: relative;
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.homeSection .characters {
+    width: 875px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.homeInfo {
+    color: #00def7;
+    float: left;
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 700px;
+}
+
+.infoTitle {
+    font-size: 50px;
+}
+
+.infoDescription {
+    font-size: 20px;
+}
+
+.trailer {
+    text-align: center;
+    background-color: #0c3f72;
+}
+
+.trailerTitle {
+    padding: 40px;
+    font-size: 75px;
+    color: #cffaff !important;
+}
+
+.trailerDescription {
+    color: #cffaff !important;
+}
