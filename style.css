@@ -88,3 +88,29 @@ body {
 .trailerDescription {
     color: #cffaff !important;
 }
+
+.trailerVideo{
+    width: 1280px;
+    height: 720px;
+    margin: 20px 20px 60px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footerSec{
+    text-align: center;
+    padding: 40px;
+    color: #00def7 !important;
+    background-image: url("images/footerBackground.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footerLogo{
+    width: 100px;
+}
