@@ -32,10 +32,23 @@ body {
 .nav-link {
     color: #00def7 !important;
     font-size: 20px !important;
+    text-align: right !important;
 }
 
 .navLogo {
     width: 200px;
+}
+
+.fa-bars{
+    color: #00def7 !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0 !important;
 }
 
 .homeSection {
@@ -67,11 +80,32 @@ body {
 }
 
 .infoTitle {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-size: 50px;
 }
 
 .infoDescription {
     font-size: 20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+
+.trailerBtn{
+    text-decoration: none;
+    color: #00def7;
+    font-size: 20px;
+    border: 2.5px solid #00def7;
+    border-radius: 6px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 16px 10px 16px;
+    margin-top: 20px;
+    float: left;
+    transition: 0.25s;
+}
+
+.trailerBtn:hover{
+    background-color: #00def7;
+    color: #0c3f72;
 }
 
 .trailer {
@@ -83,10 +117,12 @@ body {
     padding: 40px;
     font-size: 75px;
     color: #cffaff !important;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .trailerDescription {
     color: #cffaff !important;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
 .trailerVideo{
@@ -113,4 +149,129 @@ body {
 
 .footerLogo{
     width: 100px;
+}
+
+@media only screen and (max-width: 1650px) {
+    .homeSection .characters {
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .homeInfo {
+        margin-top: 150px;
+        width: 500px;
+    }
+
+    .homeLogo{
+        width: 360px;
+    }
+
+    .infoTitle {
+        font-size: 40px;
+    }
+    
+    .infoDescription {
+        font-size: 18px;
+    }
+
+    .homeSection .characters {
+        width: 750px;
+    }
+
+    .trailerTitle {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .homeSection .characters {
+        width: 550px;
+    }
+
+    .trailerVideo{
+        width: 90vw;
+        height: 50vw;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .homeSection .characters {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .navLogo {
+        width: 100px;
+    }
+
+    .homeInfo {
+        margin-top: 100px;
+        width: 400px;
+    }
+
+    .homeLogo{
+        width: 250px;
+    }
+
+    .infoTitle {
+        font-size: 28px;
+    }
+    
+    .infoDescription {
+        font-size: 14px;
+    }
+
+    .trailerBtn{
+        font-size: 16px;
+        border: 2.5px solid #00def7;
+        padding: 6px 10px 6px 10px;
+    }
+
+    .homeSection .characters {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+
+    .homeSection .characters {
+        width: 98vw;
+    }
+
+    .homeLogo{
+        width: 55vw;
+    }
+
+    .homeInfo {
+        width: 80vw;
+    }
+
+    .trailerTitle {
+        font-size: 30px;
+    }
+
+    .trailerDescription {
+        font-size: 12px;
+    }
+
+    .trailerVideo{
+        width: 80vw;
+        height: 45vw;
+    }
+
+    .footerSec{
+        font-size: 12px;
+    }
+
+    .footerLogo{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (max-height: 850px) {
+    .homeSection .characters {
+        width: 300px;
+    }
 }
